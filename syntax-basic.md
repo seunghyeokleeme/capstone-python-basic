@@ -2,7 +2,7 @@
 
 ## Numbers
 
-- Divison operator(/) 는 항상 소수점을 출력한다.
+- division operator(/) 는 항상 소수점을 출력한다.
   - 정수형으로 출력하려면 floor division 사용
 
 ```python
