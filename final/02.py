@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+w = 150e-6
+
 # data
 l = [4e-6, 8e-6, 12e-6, 20e-6, 50e-6]
 r = [2.2, 6.5, 10.2, 13.5, 17.2]
@@ -37,5 +39,7 @@ d0, y0, x_intercept
 
 print("R_c: ");
 print(y0/2);
+print("R_s:");
+print(d0*w);
 print("L_t: ");
 print(x_intercept/2);

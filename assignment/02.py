@@ -17,7 +17,7 @@ print("x : ", x);
 
 # Va를 계산하는 함수
 def calculate_V_a(T_kelvin, I_D, I_S):
-    return (E_g / e) - ((k * T_kelvin) / e) * np.log(C_1 / I_D)
+    return E_g_eV - ((k * T_kelvin) / e) * np.log(C_1 / I_D)
 
 # 온도 범위 정의 (20°C to 200°C), 켈빈으로 변환
 T_min = 20 + KELVIN_CONVERSION
