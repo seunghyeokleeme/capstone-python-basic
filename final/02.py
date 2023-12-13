@@ -42,4 +42,4 @@ print(y0/2);
 print("R_s:");
 print(d0*w);
 print("L_t: ");
-print(x_intercept/2);
+print(-x_intercept/2);
